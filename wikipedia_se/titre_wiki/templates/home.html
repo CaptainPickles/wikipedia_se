@@ -1,4 +1,5 @@
 <h1>Bienvenue</h1>
 <br>
-<h2>{{ titre }}</h2>
-<p>{{ content }}</p>
+{% for titre in titre %}
+<h2>{{ titre.title }}</h2>
+{% endfor %}
